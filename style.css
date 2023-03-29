@@ -1,0 +1,162 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#top-header{
+    background-color: rgb(46, 45, 45);
+}
+
+/* ul li i{
+    padding-left: 10px;
+} */
+
+ul li span {
+    /* padding-left: 20px; */
+    cursor: pointer;
+    color: white;
+    font-weight: 500;
+}
+
+ul li span:hover{
+    color: red;
+}
+
+.main-logo img{
+    width: 13rem;
+}
+
+.search-cetagories{
+    /* border: 2px solid white; */
+    border-radius: 20px;
+    margin-top: 20px;
+    width: fit-content;
+
+}
+
+.search-cetagories form input{
+    margin-left: 0px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 20px;
+}
+
+.search-cetagories form select{
+    border-radius: 20px 0 0 20px;
+    height: 40px;
+    border: none;
+    outline: none;
+    position: relative;
+    right: -4px;
+    text-align: center;
+    padding-right: 14px;
+    padding-left: 6px;
+}
+
+.search-cetagories form button{
+    height: 40px;
+    width: 115px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgb(250, 36, 36);
+    color: white;
+    font-size: large;
+    font-weight: 800;
+    border: none;
+    outline: none;
+    position: relative;
+    left: -5px;
+}
+
+ sup{
+    background-color: rgb(151, 4, 4);
+    border-radius: 100%;
+    padding: 7px;
+    margin-left: 2px;
+    font-size: small;
+    font-weight: 200;
+}
+
+.Wishlist i{
+    margin-left: 10px;
+    
+}
+
+.header-line{
+    background-color: red;
+    height: 3px;
+}
+
+.navbar-nav a{
+    font-size: larger;
+    font-weight: 500;
+    margin-right: 20px;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-out;
+}
+
+.navbar-nav a.active{
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+
+.navbar-nav a:hover{
+    color: red;
+    border-bottom: 3px solid red;
+}
+
+.shop-image{
+    
+    background-color: rgba(255, 0, 0, 0.815);
+    background-size: cover;
+    width: 19rem;
+}
+ 
+
+
+.shop-image img{
+    position: relative;
+    border: 1px solid rgb(167, 164, 164);
+    z-index: -1;
+    width: 25rem;
+}
+
+.shop-items .shop-body{
+    position: relative;
+    top: -19rem;
+    color: white;
+    margin-top: 50px;
+    padding-left: 40px;
+}
+
+.shop-items a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: larger;
+}
+
+.shop-items a i{
+    border-radius: 100%;
+    border: none;
+    background-color: white;
+    padding: 8px;
+}
+
+.shop-body h1{
+    font-weight: 900;
+    
+}
+
+/* Product Section */
+.collapse ul li a{
+    font-size: x-large;
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+/* / Product Section */
